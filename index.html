@@ -165,7 +165,7 @@
 
                 <div class="screenshots__item">
                     <img class="screenshots__image" width="200" height="150" src="images/streaming2.jpg">
-                    <div>
+                    <div class="screenshots__details">
                         <h3 class="screenshots__heading">Streaming</h3>
                         <p>
                             Youtube provides an opportunity for creators to start their streaming carrier.
@@ -175,7 +175,7 @@
                 </div>
             </div>
         </section>
-        <!--
+        
         <section class="reviews">
             <h2 class="heading--centered">Reviews</h2>
 
@@ -289,14 +289,14 @@
                 <div class="row">
                     <div class="column">
 
-                        <form class="contact__form">
+                        <form name="contactForm" class="contact__form">
                             <input class="contact__input" id="name" type="text" name="name" placeholder="Your name:" maxlength="25" required>
                             <p class="hidden"></p>
                             <input class="contact__input" id="email" type="text" name="email" placeholder="Your email:" maxlength="25" required>
                             <p class="hidden"></p>
                             <textarea class="contact__textarea" id="message" name="message" cols="40" rows="8" placeholder="Your message:" maxlength="200" required></textarea>
                             <p class="hidden"></p>
-                            <input class="contact__submit" type="submit" value="SEND">
+                            <input class="contact__submit" type="button" value="SEND" onclick="submitForm();">
                         </form>
 
                     </div>
@@ -320,7 +320,7 @@
                 </div>
 
             </div>
-        </section> -->
+        </section> 
     </main>
 
     <footer class="footer">

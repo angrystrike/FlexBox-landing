@@ -502,11 +502,42 @@ body {
         width: 100%;      
     }
 
+    .screenshots__details {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .screenshots__item {
+        display: contents;
+    }
+
+    .screenshots__image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .pluses__item {
         width: auto;
     }
 
     .fa-plus-square {
         height: 130px;
+    }
+
+    .reviews__item {
+        text-align: center;
+    }
+
+    .reviews__image {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .reviews__text {
+        margin-left: 0;
+        margin-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
     }
 }
